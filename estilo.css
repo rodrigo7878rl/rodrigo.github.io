@@ -303,6 +303,46 @@ body{
 /*MEDIA QUERY*/
 
 
+@media (max-width: 992px){
+
+
+/*FOOTER*/
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: 300px;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo-footer{
+    color: white;
+    font-size: 30px;
+}
+
+.info h2{
+    color: white;
+}
+
+.info p{
+    color: white;
+}
+
+
+.derechos p{
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+}
+
+
+
+
+
 
 
 
@@ -473,10 +513,11 @@ body{
 
 
 
-@media (max-height: 576px){
+
+@media (max-width: 576px){
 
 
-    /*c2*/
+/*c2*/
 
 
 .c2{
@@ -507,7 +548,6 @@ body{
     line-height: 40px;
     text-decoration: none;
 }
-
 
 
 
@@ -553,7 +593,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    margin: 50px;
 }
 
 .logo-footer{
@@ -563,7 +603,7 @@ body{
 
 .info{
     margin: 15px;
-    margin: 10px;
+    padding: 30px;
 }
 
 .info h2{
@@ -582,3 +622,155 @@ body{
 
 }
 
+
+
+@media (max-width:576px){
+
+
+    /*header*/
+
+.header-container{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-image: url(img/portada-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header_text{
+    padding: 50px;
+}
+
+.header_text-t1{
+    font-size: 25px;
+    color: white;
+    margin-left: 50px;
+}
+
+.header_text-t2{
+    font-size: 25px;
+    color: white;
+    margin-left: 50px;
+}
+
+.button-header{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.button-header button{
+    background-color: dodgerblue ;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+
+
+
+/*c1*/
+
+.c1{
+    background-image: url(img/remera.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c1 h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.c1 a{
+    background-color: dodgerblue ;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+
+/*calzados*/
+
+.c3-calzados{
+    background-image: url(img/zapatillas.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.c3-calzados h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.c3-calzados a{
+    background-color: dodgerblue ;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.logo-footer{
+    color: white;
+    font-size: 25px;
+}
+
+.info{
+}
+
+.info h2{
+    color: white;
+}
+
+.info p{
+    color: white;
+}
+
+
+.derechos p{
+    color: white;
+    display:inline;
+    text-align: center;
+}
+
+}
